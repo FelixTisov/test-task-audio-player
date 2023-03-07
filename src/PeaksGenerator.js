@@ -1,17 +1,15 @@
 import extractPeaks from 'webaudio-peaks'
 
 // Получение arraybuffer по url
-async function getArrayBuffer (url) {
-  
-  const result = await new Promise(resolve => {
+async function getArrayBuffer(url) {
+  const result = await new Promise((resolve) => {
+    let request = new XMLHttpRequest()
 
-    let request = new XMLHttpRequest
-    
-    request.open("GET", url, true)
+    request.open('GET', url, true)
     request.responseType = 'arraybuffer'
-    request.onload = () => { 
-    resolve(request.response)
-  }
+    request.onload = () => {
+      resolve(request.response)
+    }
     request.send()
   })
 
@@ -20,7 +18,6 @@ async function getArrayBuffer (url) {
 
 // Извлечение сэмплов из arryabuffer
 export default async function getPeaksArray(URL) {
-
   const audioContext = new AudioContext()
   const normalizedBuffer = []
 
@@ -28,7 +25,6 @@ export default async function getPeaksArray(URL) {
     const arrayBuffer = await getArrayBuffer(URL)
 
     await audioContext.decodeAudioData(arrayBuffer, (decodedData) => {
-
       const samplesPerPixel = 350 // Количество сэмплов для расчёта одного пика
       const isMono = true // Объединение всех каналов
       const peaks = extractPeaks(decodedData, samplesPerPixel, isMono)
@@ -37,7 +33,6 @@ export default async function getPeaksArray(URL) {
 
       // Нахождение среднего значения для внутри группы сэмплов
       for (let i = 0; i < samples; i++) {
-
         let blockStart = blockSize * i
         let sum = 0
 
