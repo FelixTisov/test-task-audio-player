@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './InputForm.css'
+import './InputFormMobile.css'
 
 const arrow = require('../../icons/arrow.svg')
 

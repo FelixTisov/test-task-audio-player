@@ -47,7 +47,6 @@ const StateContainer = () => {
   // Проверить доступность аудио
   async function checkURL(URL) {
     const response = await fetch(URL)
-    console.log(response)
     return response.status
   }
 

@@ -9,7 +9,6 @@
   flex: none;
   order: 1;
   flex-grow: 1;
-  /* background-color: yellow; */
 }
 
 .input-form-container_form-title {
@@ -48,14 +47,16 @@
 }
 
 .input-form-container_link-form_input {
+  box-sizing: border-box;
   display: flex;
   flex-direction: row;
   align-items: center;
   padding-left: 18px;
   width: auto;
-  height: 99px;
+  height: 100px;
   border: none;
   background: #ffffff;
+  border-radius: 0;
   flex: none;
   order: 0;
   flex-grow: 1;

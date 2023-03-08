@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import getPeaksArray from '../../PeaksGenerator'
 import './player.css'
+import './PlayerMobile.css'
 
 const Player = ({ URL, showInput }) => {
   const play = require('../../icons/play.svg')
@@ -13,6 +14,8 @@ const Player = ({ URL, showInput }) => {
   const volumeRange = useRef()
   const audio = useRef()
   const canvas = useRef()
+
+  URL = 'https://s.lalal.ai/music/home/Lets_Call_it_by_LawrenceTrailer_cut.mp3'
 
   useEffect(() => {
     processLink(URL)

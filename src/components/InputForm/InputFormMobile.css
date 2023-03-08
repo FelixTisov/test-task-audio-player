@@ -1,0 +1,30 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 640px) and (-webkit-min-device-pixel-ratio: 2) {
+  .input-form-container {
+    width: 100%;
+    height: 156px;
+    padding: 0;
+  }
+
+  .input-form-container_form-title {
+    width: 100%;
+    margin-right: 0;
+    /* background-color: green; */
+  }
+
+  .input-form-container_link-form {
+    width: 100%;
+    margin-right: 0;
+    height: 64px;
+    /* border: 1px solid red; */
+  }
+
+  .input-form-container_link-form_input {
+    width: 50%;
+    height: 100%;
+  }
+
+  .input-form-container_link-form_button {
+    width: 64px;
+    height: 64px;
+  }
+}

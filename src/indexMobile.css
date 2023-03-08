@@ -1,0 +1,425 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 640px) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .content-wrapper {
+    padding: 0;
+    margin: 0;
+    gap: 10;
+    min-width: 320px;
+    width: 100%;
+    max-width: 640px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+    width: 100%;
+    max-width: 640px;
+    /* overflow-x: hidden; */
+  }
+
+  .error-container {
+    position: fixed;
+    box-sizing: border-box;
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 12px;
+    min-width: 296px;
+    max-width: 296px;
+    height: 73px;
+    top: 12px;
+    background: #ffffff;
+    border: 0.5px solid #e6e6e6;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+  }
+
+  .error-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 168px;
+    height: 33px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+  }
+
+  .promo {
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 12px;
+    height: fit-content;
+    gap: 40px;
+    min-width: 320px;
+    width: 100%;
+    max-width: 640px;
+    background-color: #eeeeee;
+  }
+
+  .promo_block-left {
+    display: none;
+  }
+
+  .promo_block-top_mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    min-width: 320px;
+    width: 100%;
+    max-width: 640px;
+    height: 120px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    /* background-color: yellow; */
+  }
+
+  .promo_title {
+    width: 100%;
+  }
+
+  .promo_title h2 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .promo_block-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    min-width: 320px;
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    /* background-color: aquamarine; */
+  }
+
+  .promo_block-bottom_mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    min-width: 320px;
+    width: 100%;
+    max-width: 640px;
+    height: 112px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    /* background-color: green; */
+  }
+
+  .promo_block-bottom_mobile h3 {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 0;
+    letter-spacing: -0.4px;
+    color: #1b191c;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /* background-color: yellow; */
+  }
+
+  .promo_block-bottom_mobile span {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: -16px;
+    letter-spacing: -0.3px;
+    color: #1b191c;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /* background-color: red; */
+  }
+
+  .promo_block-bottom_mobile a {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.3px;
+    margin-top: 0;
+    color: #1b191c;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .pricing {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 40px 12px;
+    gap: 120px;
+    min-width: 320px;
+    width: 100%;
+    max-width: 640px;
+    height: 1616px;
+    background: #1b191c;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .pricing_description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 36px;
+    min-width: 320px;
+    width: 100%;
+    max-width: 640px;
+    height: 693px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .pricing_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    min-width: 320px;
+    width: 100%;
+    max-width: 640px;
+    height: 464px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .pricing_wrapper h2 {
+    height: 40px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 110%;
+    letter-spacing: -0.4px;
+    color: #f5f6f7;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .pricing_wrapper p {
+    height: 384px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #eeeeee;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .pricing_illustration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 320px;
+    width: 100%;
+    max-width: 640px;
+    height: 193px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .pricing_yellow-box {
+    min-width: 49.27px;
+    max-width: 49.27px;
+    height: 48.97px;
+    left: 0;
+  }
+
+  .pricing_lines-box {
+    height: 100%;
+    width: 46%;
+  }
+
+  .pricing_lines-box-second {
+    width: 22%;
+    height: 67%;
+  }
+
+  .pricing_logos-box {
+    width: 59.69px;
+  }
+
+  .pricing_black-box {
+    min-width: 59.69px;
+    max-width: 59.69px;
+    height: 59.71px;
+  }
+
+  .pricing_logo {
+    width: 46.34px;
+    height: 28.2px;
+  }
+
+  .pricing_requirements {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    min-width: 320px;
+    width: 100%;
+    max-width: 640px;
+    height: 723px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .pricing_requirements h3 {
+    height: 32px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #f5f6f7;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .pricing_requirements_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    min-width: 320px;
+    width: 100%;
+    max-width: 640px;
+    height: 651px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .pricing_requirements_tabs {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 16px;
+    min-width: 320px;
+    width: 100%;
+    max-width: 640px;
+    height: 64px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .pricing_requirements_table-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    gap: 0;
+    min-width: 320px;
+    width: 100%;
+    max-width: 640px;
+    height: fit-content;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .desktop-tabels {
+    display: none;
+  }
+
+  .mobile-tabels {
+    display: flex;
+  }
+
+  .pricing_requirements_table {
+    min-width: 320px;
+    width: 100%;
+    max-width: 640px;
+    top: 0;
+  }
+
+  .pricing_requirements_table tbody tr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 12px 12px 12px 0px;
+    gap: 10px;
+    min-width: 320px;
+    width: 100%;
+    max-width: 640px;
+    height: fit-content;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .pricing_requirements_table tbody td {
+    min-width: 320px;
+    width: 100%;
+    max-width: 640px;
+  }
+}
