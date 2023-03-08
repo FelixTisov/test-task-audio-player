@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import StateContainer from './components/StateContainer/StateContainer'
+import { createRoot } from 'react-dom/client'
 import './index.css'
 // import './indexMobile.css'
 
@@ -41,7 +42,7 @@ amazonInstanceButton.addEventListener('click', (e) => {
 // const URL = 'https://c5.radioboss.fm:18084/stream'
 //const URL = 'https://lalalai.s3.us-west-2.amazonaws.com/media/split/a7564eb8-cbf2-40e2-9cb8-6061d8d055a7/no_vocals'
 
-ReactDOM.render(
-  <StateContainer />,
-  document.querySelector('.promo_block-right')
-)
+const rootContainer = document.querySelector('.promo_block-right')
+const root = createRoot(rootContainer)
+
+root.render(<StateContainer />)
