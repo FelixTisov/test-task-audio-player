@@ -10,6 +10,9 @@ const Player = ({ URL, showInput }) => {
   const [playing, setPlaying] = useState(false)
   const [timer, setTimer] = useState('00:00')
   const [icon, setIcon] = useState(play)
+  const [loaded, setLoaded] = useState(false)
+  const [bufferLoaded, setBufferLoaded] = useState(false)
+  const [metaDataLoaded, setMetaDataLoaded] = useState(false)
 
   const volumeRange = useRef()
   const audio = useRef()
@@ -27,11 +30,17 @@ const Player = ({ URL, showInput }) => {
     }
   }, [URL])
 
+  useEffect(() => {
+    if (loaded && metaDataLoaded) {
+      drawWaveForm()
+    }
+  }, [loaded, metaDataLoaded])
+
   // Обработка ссылки
   async function processLink(URL) {
     const audioBuffer = await getPeaksArray(URL)
+    setLoaded(true)
     localStorage.setItem('audioBuffer', JSON.stringify(audioBuffer))
-    drawWaveForm()
   }
 
   // Генерация аудиодорожки
@@ -203,6 +212,11 @@ const Player = ({ URL, showInput }) => {
     return x
   }
 
+  // Проверить что загружена метадата аудио
+  const metadataLoaded = (e) => {
+    setMetaDataLoaded(true)
+  }
+
   return (
     <div className="player-container">
       <audio
@@ -211,6 +225,7 @@ const Player = ({ URL, showInput }) => {
         crossOrigin="anonymous"
         ref={audio}
         src={URL}
+        onLoadedMetadata={metadataLoaded}
         preload="metadata"
       />
       <div className="player-container_back-button">
@@ -228,13 +243,17 @@ const Player = ({ URL, showInput }) => {
         >
           <img className="audio-player__img" src={icon} alt="Play/Pause" />
         </button>
-        <canvas
-          onMouseDown={handleMouseDown}
-          onMouseUp={handleMouseUpOut}
-          onMouseOut={handleMouseUpOut}
-          ref={canvas}
-          className="player-container_sample"
-        ></canvas>
+        {loaded && metaDataLoaded ? (
+          <canvas
+            onMouseDown={handleMouseDown}
+            onMouseUp={handleMouseUpOut}
+            onMouseOut={handleMouseUpOut}
+            ref={canvas}
+            className="player-container_sample"
+          ></canvas>
+        ) : (
+          <span class="player-container_loader"></span>
+        )}
         <div className="player-container_wrapper">
           <span className="player-container_timer">{timer}</span>
           <div className="player-container_volume-control">
