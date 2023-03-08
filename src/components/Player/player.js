@@ -11,7 +11,6 @@ const Player = ({ URL, showInput }) => {
   const [timer, setTimer] = useState('00:00')
   const [icon, setIcon] = useState(play)
   const [loaded, setLoaded] = useState(false)
-  const [bufferLoaded, setBufferLoaded] = useState(false)
   const [metaDataLoaded, setMetaDataLoaded] = useState(false)
 
   const volumeRange = useRef()

@@ -43,7 +43,6 @@
   max-width: 647px;
   height: 100px;
   margin-right: 40px;
-  /* border: 1px solid red; */
 }
 
 .input-form-container_link-form_input {
@@ -60,7 +59,6 @@
   flex: none;
   order: 0;
   flex-grow: 1;
-
   font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: 300;

@@ -24,7 +24,6 @@
     min-width: 320px;
     width: 100%;
     max-width: 640px;
-    /* overflow-x: hidden; */
   }
 
   .error-container {
@@ -92,7 +91,6 @@
     order: 0;
     align-self: stretch;
     flex-grow: 0;
-    /* background-color: yellow; */
   }
 
   .promo_title {
@@ -119,7 +117,6 @@
     order: 1;
     align-self: stretch;
     flex-grow: 0;
-    /* background-color: aquamarine; */
   }
 
   .promo_block-bottom_mobile {
@@ -134,7 +131,6 @@
     flex: none;
     order: 2;
     flex-grow: 0;
-    /* background-color: green; */
   }
 
   .promo_block-bottom_mobile h3 {
@@ -149,7 +145,6 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-    /* background-color: yellow; */
   }
 
   .promo_block-bottom_mobile span {
@@ -164,7 +159,6 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-    /* background-color: red; */
   }
 
   .promo_block-bottom_mobile a {
@@ -249,7 +243,6 @@
 
   .pricing_wrapper p {
     height: 384px;
-
     font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 300;
@@ -417,6 +410,7 @@
     align-self: stretch;
     flex-grow: 0;
   }
+
   .pricing_requirements_table tbody td {
     min-width: 320px;
     width: 100%;
