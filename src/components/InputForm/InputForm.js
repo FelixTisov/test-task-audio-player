@@ -7,10 +7,15 @@ const InputForm = ({ getURL }) => {
   const [inputValue, setInputValue] = useState('')
 
   const updateInput = (e) => {
-    setInputValue(e.target.value)
+    const input = e.target.value
+    if (input === ' ') {
+      setInputValue('')
+    } else {
+      setInputValue(input)
+    }
   }
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
     getURL(inputValue)
   }
@@ -27,6 +32,7 @@ const InputForm = ({ getURL }) => {
           class="input-form-container_link-form_input"
           placeholder="https://"
           onChange={updateInput}
+          value={inputValue}
         />
         <button type="submit" class="input-form-container_link-form_button">
           <img

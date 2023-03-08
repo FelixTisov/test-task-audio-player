@@ -14,6 +14,12 @@ const amazonInstanceCont = document.querySelector(
 const amazonInstanceButton = document.querySelector(
   '.pricing_requirements_amazon-instance-button'
 )
+const errorClose = document.querySelector('.close-icon')
+const errorContainer = document.querySelector('.error-container')
+
+errorClose.addEventListener('click', (e) => {
+  errorContainer.style.display = 'none'
+})
 
 ownServerButton.addEventListener('click', (e) => {
   amazonInstanceCont.classList.add('pricing_requirements_hidden-table')
