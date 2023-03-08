@@ -15,8 +15,6 @@ const Player = ({ URL, showInput }) => {
   const audio = useRef()
   const canvas = useRef()
 
-  URL = 'https://s.lalal.ai/music/home/Lets_Call_it_by_LawrenceTrailer_cut.mp3'
-
   useEffect(() => {
     processLink(URL)
 
