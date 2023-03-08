@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import getPeaksArray from '../../PeaksGenerator'
-import './Player.css'
+import './player.css'
 import './PlayerMobile.css'
 
 const Player = ({ URL, showInput }) => {
