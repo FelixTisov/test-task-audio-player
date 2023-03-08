@@ -48,11 +48,9 @@ const StateContainer = () => {
   async function checkURL(URL) {
     try {
       const response = await fetch(URL)
-      console.log(response)
       return response.status
     } catch (error) {
-      errorMessage = 'En error occured'
-      showErrorMessage(errorMessage)
+      return
     }
   }
 

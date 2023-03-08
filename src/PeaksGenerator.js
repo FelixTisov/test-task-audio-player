@@ -42,9 +42,7 @@ export default async function getPeaksArray(URL) {
         normalizedBuffer.push(sum / blockSize)
       }
     })
-  } catch (error) {
-    console.error(error)
-  }
+  } catch (error) {}
 
   return normalizedBuffer
 }

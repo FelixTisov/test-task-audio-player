@@ -148,19 +148,14 @@ const Player = ({ URL, showInput }) => {
 
   // Обработчик кнопки Play/Pause
   const handlePlayPause = () => {
-    // try cath не работает
-    try {
-      setPlaying(!playing)
+    setPlaying(!playing)
 
-      if (playing) {
-        audio.current.pause()
-        setIcon(play)
-      } else {
-        audio.current.play()
-        setIcon(pause)
-      }
-    } catch (error) {
-      console.error(error)
+    if (playing) {
+      audio.current.pause()
+      setIcon(play)
+    } else {
+      audio.current.play()
+      setIcon(pause)
     }
   }
 
