@@ -483,11 +483,11 @@ body {
   display: none !important;
 }
 
-.mobile-tabels {
+.mobile-tables {
   display: none;
 }
 
-.desktop-tabels {
+.desktop-tables {
   display: flex;
 }
 
@@ -500,6 +500,7 @@ body {
   gap: 48px;
   margin-top: 0;
   width: 100%;
+  min-width: 1336px;
   height: 169px;
   flex: none;
   order: 1;

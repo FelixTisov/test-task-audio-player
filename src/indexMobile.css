@@ -379,11 +379,11 @@
     flex-grow: 0;
   }
 
-  .desktop-tabels {
+  .desktop-tables {
     display: none;
   }
 
-  .mobile-tabels {
+  .mobile-tables {
     display: flex;
   }
 
