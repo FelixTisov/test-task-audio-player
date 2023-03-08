@@ -2,539 +2,536 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400&display=swap');
 
 html {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    background: #1B191C;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  background: #1b191c;
 }
 
 .content-wrapper {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 12px 12px 12px 12px;
-    gap: 10px;
-    width: 100%;
-    max-width: 1550px;
-    height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 12px 12px 12px;
+  gap: 10px;
+  width: 100%;
+  max-width: 1550px;
+  height: 100%;
 }
 
 .content {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    max-width: 1550px;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  max-width: 1550px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
 .promo {
-    display: flex;
-    position: relative;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 40px;
-    width: 100%;
-    height: 511px;
-    background: #EEEEEE;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 100%;
+  height: 511px;
+  background: #eeeeee;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
 .promo_block-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 24px;
-    max-width: 492px;
-    height: 100%;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-    /* border: 1px black solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  max-width: 492px;
+  height: 100%;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  /* border: 1px black solid; */
 }
 
 .promo_title {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0px;
-    width: 492px;
-    height: 52%;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px;
+  width: 492px;
+  height: 52%;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
-.promo_title h1 {
-
-    font-family: 'Space Grotesk';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 55px;
-    margin-top: 0;
-    letter-spacing: -0.9px;
-    color: #000000;
-
+.promo_title h2 {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 55px;
+  margin-top: 0;
+  letter-spacing: -0.9px;
+  color: #000000;
 }
 
 .promo_title h3 {
-    font-family: 'Space Grotesk';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 28px;
-    margin-top: -7px;
-    letter-spacing: 0.15px;
-    color: #1B191C;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: -7px;
+  letter-spacing: 0.15px;
+  color: #1b191c;
 }
 
 .promo_box {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 4px;
-    width: 343px;
-    height: 16px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+  width: 343px;
+  height: 16px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .promo_box span {
-    font-family: 'Space Grotesk';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 0px;
-    color: #1B191C;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0px;
+  color: #1b191c;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .promo_box a {
-    font-family: 'Space Grotesk';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 0px;
-    color: #1B191C;
-    text-decoration: none;
-    cursor: pointer;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0px;
+  color: #1b191c;
+  text-decoration: none;
+  cursor: pointer;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .promo_block-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    min-width: 347px;
-    max-width: 844px;
-    height: 156px;
-    flex: none;
-    order: 1;
-    flex-grow: 1;
-    /* border: 1px black solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  min-width: 347px;
+  max-width: 844px;
+  height: 156px;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  /* border: 1px black solid; */
 }
 
 .promo_form-title {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    height: 56px;
-    min-width: 347px;
-    width: 100%;
-    max-width: 647px;
-    margin-right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 56px;
+  min-width: 347px;
+  width: 100%;
+  max-width: 647px;
+  margin-right: 40px;
 }
 
 .promo_form-title h2 {
-    font-family: 'Space Grotesk';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
-    margin-top: 0px;
-    letter-spacing: 0.1px;
-    color: #1B191C;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 0px;
+  letter-spacing: 0.1px;
+  color: #1b191c;
 }
 
 .promo_link-form {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    min-width: 347px;
-    width: 100%;
-    max-width: 647px;
-    height: 100px;
-    margin-right: 40px;
-    /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  min-width: 347px;
+  width: 100%;
+  max-width: 647px;
+  height: 100px;
+  margin-right: 40px;
+  /* border: 1px solid red; */
 }
 
 .promo_link-form_input {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-left: 18px;
-    width: auto;
-    height: 99px;
-    border: none;
-    background: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 18px;
+  width: auto;
+  height: 99px;
+  border: none;
+  background: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
 
-    font-family: 'Space Grotesk';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 24px;
-    color: #1B191C;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+  color: #1b191c;
 }
 
 .promo_link-form_input:focus {
-    outline: none;
+  outline: none;
 }
 
 .promo_link-form_input::placeholder {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    font-family: 'Space Grotesk';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 24px;
-    letter-spacing: 0px;
-    color: #A4A3A4;
-
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #a4a3a4;
 }
 
 .promo_link-form_button {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    width: 100px;
-    height: 101px;
-    border: none;
-    background: #F8D231;
-    cursor: pointer;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100px;
+  height: 101px;
+  border: none;
+  background: #f8d231;
+  cursor: pointer;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .promo_link-form_icon {
-    width: 40px;
-    height: 36px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+  width: 40px;
+  height: 36px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .player-wrapper {
-    display: none;
-    justify-content: center;
-    align-items: center;
-    width: 844px;
-    height: 288px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 844px;
+  height: 288px;
 }
 
 .pricing {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 128px 40px;
-    gap: 120px;
-    width: 94.5%;
-    height: 700px;
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 128px 40px;
+  gap: 120px;
+  width: 94.5%;
+  height: 700px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
 .pricing_description {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    width: 100%;
-    height: 262px;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: 100%;
+  height: 262px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
 .pricing_wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 10px;
-    width: 50%;
-    height: 100%;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: 50%;
+  height: 100%;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
-.pricing_wrapper h1 {
-    font-family: 'Space Grotesk';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 52px;
-    margin-top: 0;
-    letter-spacing: 0.4px;
-    color: #F5F6F7;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
+.pricing_wrapper h2 {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 52px;
+  margin-top: 0;
+  letter-spacing: 0.4px;
+  color: #f5f6f7;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
 .pricing_wrapper p {
-    font-family: 'Space Grotesk';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 34px;
-    margin-top: 0;
-    letter-spacing: 0.1px;
-    color: #EEEEEE;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 34px;
+  margin-top: 0;
+  letter-spacing: 0.1px;
+  color: #eeeeee;
 }
 
 .pricing_illustration {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    position: relative;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .pricing_yellow-box {
-    box-sizing: border-box;
-    position: relative;
-    min-width: 96px;
-    max-width: 96px;
-    height: 96px;
-    left: 0px;
-    background: #F8D231;
+  box-sizing: border-box;
+  position: relative;
+  min-width: 96px;
+  max-width: 96px;
+  height: 96px;
+  left: 0px;
+  background: #f8d231;
 }
 
 .pricing_lines-box {
-    display: flex;
-    position: relative;
-    width: 41%;
-    height: 136.47px;   
+  display: flex;
+  position: relative;
+  width: 41%;
+  height: 136.47px;
 }
 
 .pricing_lines-box_line1 {
-    position: absolute;
-    width: 100%;
-    height: 0px;
-    top: 48%;
-    border: 1px dashed #919E9F;
+  position: absolute;
+  width: 100%;
+  height: 0px;
+  top: 48%;
+  border: 1px dashed #919e9f;
 }
 
 .pricing_lines-box-second {
-    display: flex;
-    position: relative;
-    width: 22%;
-    height: 136.47px;   
-    border-left: 1px dashed #919E9F;
-    border-top: 1px dashed #919E9F;
-    border-bottom: 1px dashed #919E9F;
+  display: flex;
+  position: relative;
+  width: 22%;
+  height: 136.47px;
+  border-left: 1px dashed #919e9f;
+  border-top: 1px dashed #919e9f;
+  border-bottom: 1px dashed #919e9f;
 }
 
 .pricing_logos-box {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    justify-content: space-between;
-    width: 118px;
-    height: 98.2%;
-    right: 0px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: space-between;
+  width: 118px;
+  height: 98.2%;
+  right: 0px;
 }
 
 .pricing_black-box {
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    min-width: 118px;
-    max-width: 118px;
-    height: 116px;
-    background: #323033;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-width: 118px;
+  max-width: 118px;
+  height: 116px;
+  background: #323033;
 }
 
 .pricing_logo {
-    width: 86.97px;
-    height: 52.68px;
+  width: 86.97px;
+  height: 52.68px;
 }
 
 .pricing_requirements {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 20px;
-    width: 100%;
-    height: 332px;
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 100%;
+  height: 332px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
 .pricing_requirements h3 {
-    font-family: 'Space Grotesk';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 32px;
-    margin-top: 5px;
-    letter-spacing: 0.1px;
-    color: #F5F6F7;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 5px;
+  letter-spacing: 0.1px;
+  color: #f5f6f7;
 }
 
 .pricing_requirements_wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 32px;
-    width: 100%;
-    height: 236px;
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+  width: 100%;
+  height: 236px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
 .pricing_requirements_tabs {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 22px;
-    width: auto;
-    height: 35px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 22px;
+  width: auto;
+  height: 35px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .pricing_requirements_option {
-    font-family: 'Space Grotesk';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 32px;
-    margin-top: 0;
-    letter-spacing: 0px;
-    color: #CFD3D6;
-    opacity: 0.4;
-    cursor: pointer;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 0;
+  letter-spacing: 0px;
+  color: #cfd3d6;
+  opacity: 0.4;
+  cursor: pointer;
 }
 
 .pricing_requirements_current-button {
-    color: #F5F6F7;
-    display: inline-block;
-    border-bottom: 1px solid #EEEEEE;
-    padding-bottom: 2px;
-    opacity: 1;
+  color: #f5f6f7;
+  display: inline-block;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 2px;
+  opacity: 1;
 }
 
 .pricing_requirements_hidden-table {
-    display: none !important;
+  display: none !important;
 }
 
 .pricing_requirements_table-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 48px;
-    margin-top: 0;
-    width: 100%;
-    height: 169px;  
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+  margin-top: 0;
+  width: 100%;
+  height: 169px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
 .pricing_requirements_table {
-    font-family: 'Space Grotesk';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 32px;
-    width: 48.3%;
-    letter-spacing: 0px;
-    border-collapse: collapse; 
-    color: #EEEEEE;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+  width: 48.3%;
+  letter-spacing: 0px;
+  border-collapse: collapse;
+  color: #eeeeee;
 }
 
 .three-rows-table {
-    height: 178px;
+  height: 178px;
 }
 
 .two-rows-table {
-    height: 119px;
+  height: 119px;
 }
 
 .pricing_requirements_table tbody tr {
-    border-bottom: 1px solid rgba(207, 211, 214, 0.1);
+  border-bottom: 1px solid rgba(207, 211, 214, 0.1);
 }
 
 .left-column {
-    width: 39%;
+  width: 39%;
 }
 
 .right-column {
-    width: 61%;
+  width: 61%;
 }

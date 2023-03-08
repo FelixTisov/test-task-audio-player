@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useState } from 'react'
 import InputForm from '../InputForm/InputForm'
 import Player from '../Player/player'
 import './StateContainer.css'
