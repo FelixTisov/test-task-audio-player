@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import InputForm from '../InputForm/InputForm'
-import Player from '../Player/player'
+import Player from '../Player/Player'
 import './StateContainer.css'
 
 const StateContainer = () => {

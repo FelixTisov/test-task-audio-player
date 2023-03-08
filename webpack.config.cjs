@@ -12,7 +12,7 @@ const config = {
   mode: mode,
   entry: {
     index: path.resolve(__dirname, './src/index.js'),
-    Player: path.resolve(__dirname, './src/components/Player/player.js'),
+    Player: path.resolve(__dirname, './src/components/Player/Player.js'),
     PeaksGenerator: path.resolve(__dirname, './src/PeaksGenerator.js'),
     InputForm: path.resolve(
       __dirname,

@@ -10,67 +10,36 @@
     margin: 0;
     gap: 10;
     min-width: 320px;
-    width: 100%;
     max-width: 640px;
   }
 
   .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     margin: 0;
     padding: 0;
     min-width: 320px;
-    width: 100%;
     max-width: 640px;
   }
 
   .error-container {
-    position: fixed;
-    box-sizing: border-box;
-    display: none;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 20px;
-    gap: 12px;
     min-width: 296px;
     max-width: 296px;
-    height: 73px;
     top: 12px;
-    background: #ffffff;
-    border: 0.5px solid #e6e6e6;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
-    flex: none;
-    order: 1;
-    flex-grow: 0;
     z-index: 1;
   }
 
   .error-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
     width: 168px;
-    height: 33px;
-    flex: none;
-    order: 1;
     flex-grow: 1;
   }
 
   .promo {
-    position: relative;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
     padding: 20px 12px;
     height: fit-content;
     gap: 40px;
     min-width: 320px;
-    width: 100%;
     max-width: 640px;
-    background-color: #eeeeee;
   }
 
   .promo_block-left {
@@ -103,18 +72,11 @@
   }
 
   .promo_block-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 0px;
     gap: 20px;
     min-width: 320px;
     width: 100%;
     max-width: 640px;
-    height: auto;
-    flex: none;
-    order: 1;
     align-self: stretch;
     flex-grow: 0;
   }
@@ -176,80 +138,45 @@
   }
 
   .pricing {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     box-sizing: border-box;
     padding: 40px 12px;
-    gap: 120px;
     min-width: 320px;
     width: 100%;
     max-width: 640px;
     height: 1616px;
     background: #1b191c;
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
   }
 
   .pricing_description {
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
     gap: 36px;
     min-width: 320px;
     width: 100%;
     max-width: 640px;
     height: 693px;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
   }
 
   .pricing_wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
     gap: 40px;
     min-width: 320px;
     width: 100%;
     max-width: 640px;
     height: 464px;
-    flex: none;
-    order: 0;
     align-self: stretch;
-    flex-grow: 0;
   }
 
   .pricing_wrapper h2 {
     height: 40px;
-    font-family: 'Space Grotesk';
-    font-style: normal;
-    font-weight: 400;
     font-size: 36px;
     line-height: 110%;
     letter-spacing: -0.4px;
-    color: #f5f6f7;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
   }
 
   .pricing_wrapper p {
     height: 384px;
-    font-family: 'Space Grotesk';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
     line-height: 32px;
     letter-spacing: -0.4px;
-    color: #eeeeee;
     flex: none;
     order: 1;
     align-self: stretch;
@@ -257,23 +184,17 @@
   }
 
   .pricing_illustration {
-    display: flex;
-    align-items: center;
     justify-content: center;
     min-width: 320px;
     width: 100%;
     max-width: 640px;
     height: 193px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
   }
 
   .pricing_yellow-box {
     min-width: 49.27px;
     max-width: 49.27px;
     height: 48.97px;
-    left: 0;
   }
 
   .pricing_lines-box {
@@ -302,81 +223,44 @@
   }
 
   .pricing_requirements {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
     gap: 40px;
     min-width: 320px;
     width: 100%;
     max-width: 640px;
     height: 723px;
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
   }
 
   .pricing_requirements h3 {
     height: 32px;
-    font-family: 'Space Grotesk';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 32px;
     letter-spacing: -0.4px;
-    color: #f5f6f7;
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
   .pricing_requirements_wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 32px;
     min-width: 320px;
-    width: 100%;
     max-width: 640px;
     height: 651px;
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
   }
 
   .pricing_requirements_tabs {
-    display: flex;
-    flex-direction: row;
     align-items: flex-end;
-    padding: 0px;
     gap: 16px;
     min-width: 320px;
     width: 100%;
     max-width: 640px;
     height: 64px;
-    flex: none;
-    order: 0;
     align-self: stretch;
-    flex-grow: 0;
   }
 
   .pricing_requirements_table-container {
-    display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0px;
     gap: 0;
     min-width: 320px;
-    width: 100%;
     max-width: 640px;
     height: fit-content;
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
   }
 
   .desktop-tables {

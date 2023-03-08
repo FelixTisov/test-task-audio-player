@@ -1,21 +1,15 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 640px) and (-webkit-min-device-pixel-ratio: 2) {
   .player-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     padding: 0px;
     gap: 20px;
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
     align-items: flex-start;
     box-sizing: border-box;
-    position: relative;
     min-width: 320px;
     width: 100%;
     max-width: 640px;
     height: 250px;
+    align-self: stretch;
+    flex-grow: 0;
   }
 
   .player-container_back-button {
@@ -23,9 +17,6 @@
     width: 100%;
     max-width: 640px;
     height: 32px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
   }
 
   .player-container_widget-player {
@@ -35,14 +26,6 @@
     max-width: 640px;
     height: 198px;
     margin-left: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 20px;
-    background: #cfd3d6;
-    flex: none;
-    order: 1;
     align-self: stretch;
   }
 

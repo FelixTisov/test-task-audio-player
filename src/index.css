@@ -257,14 +257,6 @@ body {
   flex-grow: 1;
 }
 
-.player-wrapper {
-  display: none;
-  justify-content: center;
-  align-items: center;
-  width: 844px;
-  height: 288px;
-}
-
 .pricing {
   display: flex;
   flex-direction: column;
@@ -500,7 +492,7 @@ body {
   gap: 48px;
   margin-top: 0;
   width: 100%;
-  min-width: 1336px;
+  min-width: 1400px;
   height: 169px;
   flex: none;
   order: 1;
