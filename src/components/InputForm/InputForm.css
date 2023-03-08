@@ -1,0 +1,110 @@
+.input-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  /* background-color: yellow; */
+}
+
+.input-form-container_form-title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 56px;
+  min-width: 347px;
+  width: 100%;
+  max-width: 647px;
+  margin-right: 40px;
+}
+
+.input-form-container_form-title h2 {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 0px;
+  letter-spacing: 0.1px;
+  color: #1b191c;
+}
+
+.input-form-container_link-form {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  min-width: 347px;
+  width: 100%;
+  max-width: 647px;
+  height: 100px;
+  margin-right: 40px;
+  /* border: 1px solid red; */
+}
+
+.input-form-container_link-form_input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 18px;
+  width: auto;
+  height: 99px;
+  border: none;
+  background: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+  color: #1b191c;
+}
+
+.input-form-container_link-form_input:focus {
+  outline: none;
+}
+
+.input-form-container_link-form_input::placeholder {
+  display: flex;
+  align-items: center;
+
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #a4a3a4;
+}
+
+.input-form-container_link-form_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100px;
+  height: 101px;
+  border: none;
+  background: #f8d231;
+  cursor: pointer;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.input-form-container_link-form_icon {
+  width: 40px;
+  height: 36px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

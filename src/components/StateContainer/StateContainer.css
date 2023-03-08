@@ -1,0 +1,13 @@
+.state-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  /* background: pink; */
+}

@@ -2,13 +2,12 @@ import React, { useEffect, useRef, useState } from 'react'
 import getPeaksArray from '../../PeaksGenerator'
 import './player.css'
 
-const Player = ({ URL }) => {
+const Player = ({ URL, showInput }) => {
   const play = require('../../icons/play.svg')
   const pause = require('../../icons/pause.svg')
 
   const [playing, setPlaying] = useState(false)
   const [timer, setTimer] = useState('00:00')
-  const [loaded, setLoaded] = useState(false)
   const [icon, setIcon] = useState(play)
 
   const volumeRange = useRef()
@@ -16,19 +15,16 @@ const Player = ({ URL }) => {
   const canvas = useRef()
 
   useEffect(() => {
-    if (!loaded) {
-      processLink(URL)
-      setLoaded(true)
+    processLink(URL)
 
-      audio.current.onloadedmetadata = () => {
-        volumeRange.current.style.setProperty(
-          '--volume-offset',
-          (50 / volumeRange.current.max) * 100 + '%'
-        )
-        audio.current.volume = volumeRange.current.value / 100
-      }
+    audio.current.onloadedmetadata = () => {
+      volumeRange.current.style.setProperty(
+        '--volume-offset',
+        (50 / volumeRange.current.max) * 100 + '%'
+      )
+      audio.current.volume = volumeRange.current.value / 100
     }
-  })
+  }, [URL])
 
   // Обработка ссылки
   async function processLink(URL) {
@@ -161,11 +157,7 @@ const Player = ({ URL }) => {
 
   // Вернуться к форме
   const handleBack = () => {
-    const formContainer = document.querySelector('.promo_block-right')
-    const playerContainer = document.querySelector('.player-wrapper')
-
-    formContainer.style.display = 'flex'
-    playerContainer.style.display = 'none'
+    showInput(true)
   }
 
   // Изменить громкость
