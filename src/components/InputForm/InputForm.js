@@ -29,7 +29,11 @@ const InputForm = ({ getURL }) => {
           onChange={updateInput}
         />
         <button type="submit" class="input-form-container_link-form_button">
-          <img class="input-form-container_link-form_icon" src={arrow}></img>
+          <img
+            class="input-form-container_link-form_icon"
+            src={arrow}
+            alt="submit"
+          />
         </button>
       </form>
     </div>

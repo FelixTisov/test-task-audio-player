@@ -225,7 +225,7 @@ const Player = ({ URL, showInput }) => {
           onClick={handlePlayPause}
           className="player-container_play-button"
         >
-          <img className="audio-player__img" src={icon} alt="Play/Pause"></img>
+          <img className="audio-player__img" src={icon} alt="Play/Pause" />
         </button>
         <canvas
           onMouseDown={handleMouseDown}
