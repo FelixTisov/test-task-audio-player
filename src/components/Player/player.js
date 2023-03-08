@@ -101,7 +101,7 @@ const Player = ({ URL, showInput }) => {
 
     const width = canvas.current.offsetWidth / dataArray.length
 
-    if (n < dataArray.length) {
+    if (n <= dataArray.length) {
       redrawWaveForm(n, width, dataArray)
     } else {
       return
